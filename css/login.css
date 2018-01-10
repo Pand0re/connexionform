@@ -7,10 +7,11 @@ body {
 .container {
     padding: 2px 0;
     background-color: #EEE;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: auto;
     max-width: 400px;
 }
+
 
 
 h1 {
