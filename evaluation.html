@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="author" content="mairpau">
+
+    <title>Test Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/evaluation.css" rel="stylesheet">
+
+
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+<form>
+    <div class="container">
+        <h1>Evaluation des stages</h1>
+
+        <h2>Informations personelles</h2>
+        <div class="field">
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <label><b>Titre</b></label>
+                    <input type="text" name="titre" required>
+                </div>
+
+                <div class="col-sm-5">
+                    <label><b>Nom</b></label>
+                    <input type="text" name="nom" required>
+                </div>
+
+                <div class="col-sm-5">
+                    <label><b>Prénom</b></label>
+                    <input type="text" name="prenom" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <label><b>Date de naissance</b></label>
+                    <input type="date" name="date_naissance" required>
+                </div>
+            </div>
+        </div>
+
+
+        <h2>Informations scolaires</h2>
+        <div class="field">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label><b>Ecole</b></label>
+                    <input type="text" name="annee_scolaire">
+                </div>
+
+                <div class="col-sm-6">
+                    <label><b>Année de scolarité</b></label>
+                    <input type="number" placeholder="HarmoS" name="annee_scolaire">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3><b>Niveaux scolaires</b></h3>
+                </div>
+            </div>
+
+            <div class="row nv">
+
+                <div class="col-sm-2">
+                    <label><b>Français</b></label>
+                </div>
+
+                <div class="col-sm-2">
+
+                    <select>
+                        <option>&nbsp;&nbsp;A</option>
+                        <option>&nbsp;&nbsp;B</option>
+                        <option>&nbsp;&nbsp;C</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-2">
+                    <label><b>Math<span>ématique</span></b></label>
+                </div>
+
+                <div class="col-sm-2">
+                    <select>
+                        <option>&nbsp;&nbsp;A</option>
+                        <option>&nbsp;&nbsp;B</option>
+                        <option>&nbsp;&nbsp;C</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-2">
+                    <label><b>Allemand</b></label>
+                </div>
+
+                <div class="col-sm-2">
+                    <select>
+                        <option>&nbsp;&nbsp;A</option>
+                        <option>&nbsp;&nbsp;B</option>
+                        <option>&nbsp;&nbsp;C</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <h2>Notes du stage</h2>
+        <div class="field">
+            <div class="row nv">
+
+                <div class="col-sm-2">
+                    <label><b>Français</b></label>
+                </div>
+
+                <div class="col-sm-2">
+                    <input class="note" type="number">
+                </div>
+
+                <div class="col-sm-2">
+                    <label><b>Math<span>ématique</span></b></label>
+                </div>
+
+                <div class="col-sm-2">
+                    <input class="note" type="number">
+                </div>
+
+                <div class="col-sm-2">
+                    <label><b>Travail</b></label>
+                </div>
+
+                <div class="col-sm-2">
+                    <input class="note" type="number">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3><b>Moyenne</b></h3>
+                </div>
+            </div>
+
+        </div>
+
+        <h2>Commentaire</h2>
+        <div class="field">
+            <textarea></textarea>
+        </div>
+
+
+        <button type="submit">Enregistrer</button>
+
+    </div>
+</form>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+</html>
