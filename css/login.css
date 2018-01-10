@@ -12,11 +12,13 @@ body {
     max-width: 400px;
 }
 
-
+h1, img {
+   display: inline-block;
+}
 
 h1 {
     text-align: center;
-    padding: 2% 0;
+    padding-top: 20px;
 }
 
 form {
