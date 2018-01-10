@@ -16,9 +16,24 @@ h1, img {
    display: inline-block;
 }
 
+input[type="checkbox"] {
+    margin-left: 0;
+    margin-top: 7px;
+}
+
 h1 {
     text-align: center;
     padding-top: 20px;
+    margin-top: 7px;
+}
+
+.row {
+    margin :5px auto;
+}
+
+.input-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 form {
@@ -26,14 +41,6 @@ form {
     margin: auto 10px;
 }
 
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
 
 button {
     background-color: #DC006B;
